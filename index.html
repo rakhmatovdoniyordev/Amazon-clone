@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon.com. Spend less Smile more.</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="assets/Amazon_icon.svg">
+    <link rel="stylesheet" href="./css/main.min.css">
+</head>
+<body>
+    <div class="model">
+        <div class="wrapper">
+            <div class="top">
+                <p>Choose your account</p>
+                <a onclick="closeModel()" href="#"><i class="fa-solid fa-xmark"></i></a>
+            </div>
+            <div class="text">
+                <p>Delivery options and delivery speeds may vary for different locations</p>
+                <a href="#">Sign in to see your addresses</a>
+                <p>order enter a US zip code</p>
+                <div class="input">
+                    <input type="text">
+                    <button>Apply</button>
+                </div>
+                <p>or</p>
+                <select name="" id="">
+                    <option value="">Uzbekistan</option>
+                    <option value="">Afghanistan</option>
+                    <option value="">Brazil</option>
+                    <option value="">Canada</option>
+                    <option value="">Colombia</option>
+                    <option value="">Japan</option>
+                    <option value="">Russian Federation</option>
+                    <option value="">Turkey</option>
+                    <option value="">Switzerland</option>
+                    <option value="">Kazakhstan</option>
+                    <option value="">Italy</option>
+                    <option value="">United Kingdom</option>
+                </select>
+                <div class="btn">
+                    <button>Done</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <header class="header">
+        <div class="container">
+            <nav class="navbar">
+                <img src="./assets/logo.svg" alt="Amazon Logo">
+                <div onclick="showModel()" class="navbar__location">
+                    <a href="#"><i class="fa-solid fa-location-dot"></i></a>
+                    <div class="navbar__location-text">
+                        <p>Deliver to</p>
+                        <p style="font-weight: 700;">Uzbekistan</p>
+                    </div>
+                </div>
+                <div class="navbar__search">
+                    <select name="" id="">
+                        <option value="">All</option>
+                        <option value="">Arts & Crafts</option>
+                        <option value="">Automotive</option>
+                        <option value="">Baby</option>
+                        <option value="">Boys' Fashion</option>
+                        <option value="">Computers</option>
+                        <option value="">Deals</option>
+                        <option value="">Digital Music</option>
+                        <option value="">Electronics</option>
+                        <option value="">Girls' Fashion</option>
+                        <option value="">Health & Household</option>
+                    </select>
+                    <input type="search" placeholder="Search Amazon">
+                    <button><i class="fa-solid fa-magnifying-glass"></i></button>
+                </div>
+                <a href="#"><img src="./assets/united-states.png" alt=""> EN <i class="fa-solid fa-sort-down"></i></a>
+                <div class="navbar__account">
+                    <p>Hello, sign in</p>
+                    <p style="font-weight: 700;">Account & Lists <i class="fa-solid fa-sort-down"></i></p>
+                </div>
+                <div class="navbar__orders">
+                    <p>Returns</p>
+                    <p style="font-weight: 700;">& Orders</p>
+                </div>
+                <div class="navbar__shop">
+                    <p>
+                        <i class="fa-solid fa-cart-shopping"></i> Cart
+                    </p>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <div class="headerbtm">
+        <div class="container">
+            <div class="headerbtm__wrapper">
+                <a onclick="showSidebar()" href="#"><i class="fa-solid fa-bars"></i> All</a>
+                <ul class="headerbtm__collection">
+                    <li class="Headerbtm__item">
+                        <a href="#">
+                            <span>Today's Deals</span>
+                        </a>
+                    </li>
+                    <li class="Headerbtm__item">
+                        <a href="#">
+                            <span>Customer Service</span>
+                        </a>
+                    </li>
+                    <li class="Headerbtm__item">
+                        <a href="#">
+                            <span>Registry</span>
+                        </a>
+                    </li>
+                    <li class="Headerbtm__item">
+                        <a href="#">
+                            <span>Gift Cards</span>
+                        </a>
+                    </li>
+                    <li class="Headerbtm__item">
+                        <a href="#">
+                            <span>Sell</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="sidebar">
+        <div class="sidebar__sign">
+            <p><i class="fa-solid fa-circle-user"></i> Hello, sign in</p>
+            <a onclick="closeSidebar()" href="#"><i class="fa-solid fa-xmark"></i></a>
+        </div>
+        <div class="sidebar__content">
+            <p>Digital Content & Devices</p>
+            <ul class="sidebar__collection">
+                <li class="sidebar__item">
+                    <a href="#">Amazon Music <span><i class="fa-solid fa-angle-right"></i></span></a>
+                </li>
+                <li class="sidebar__item">
+                    <a href="#">Kindle E-reader & Books <span><i class="fa-solid fa-angle-right"></i></span></a>
+                </li>
+                <li class="sidebar__item">
+                    <a href="#">Amazon Appstore <span><i class="fa-solid fa-angle-right"></i></span></a>
+                </li>
+            </ul>
+        </div>
+        <div class="sidebar__content">
+            <p>Shop by Department</p>
+            <ul class="sidebar__collection">
+                <li class="sidebar__item">
+                    <a href="#">Electronics <span><i class="fa-solid fa-angle-right"></i></span></a>
+                </li>
+                <li class="sidebar__item">
+                    <a href="#">Computers <span><i class="fa-solid fa-angle-right"></i></span></a>
+                </li>
+                <li class="sidebar__item">
+                    <a href="#">Smart Home <span><i class="fa-solid fa-angle-right"></i></span></a>
+                </li>
+            </ul>
+        </div>
+        <div class="sidebar__content">
+            <p>Programs & Features</p>
+            <ul class="sidebar__collection">
+                <li class="sidebar__item">
+                    <a href="#">Gif Cards <span><i class="fa-solid fa-angle-right"></i></span></a>
+                </li>
+                <li class="sidebar__item">
+                    <a href="#">Shop by Interest <span><i class="fa-solid fa-angle-right"></i></span></a>
+                </li>
+                <li class="sidebar__item">
+                    <a href="#">Amazon Live <span><i class="fa-solid fa-angle-right"></i></span></a>
+                </li>
+            </ul>
+        </div>
+        <div class="sidebar__content">
+            <p>Help & Settings</p>
+            <ul class="sidebar__collection">
+                <li class="sidebar__item">
+                    <a href="#">Your Account </a>
+                </li>
+                <li class="sidebar__item">
+                    <a href="#">English</a>
+                </li>
+                <li class="sidebar__item">
+                    <a href="#">United States</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <main style="background: #c7c7c7; padding-bottom: 380px;">
+        <section class="hero">
+            <div class="container">
+                <div class="hero__wrapper">
+                    <img src="./assets/hero-bg.jpg" alt="">
+                    <div class="hero__items">
+                        <div class="hero__card">
+                            <p>Gaming accessories</p>
+                            <div class="hero__images">
+                                <div class="hero__img">
+                                    <img src="./assets/hero-1.jpg" alt="">
+                                    <p>Headsets</p>
+                                </div>
+                                <div class="hero__img">
+                                    <img src="./assets/hero-2.jpg" alt="">
+                                    <p>Keyboards</p>
+                                </div>
+                                <div class="hero__img">
+                                    <img src="./assets/hero-3.jpg" alt="">
+                                    <p>Computer mice</p>
+                                </div>
+                                <div class="hero__img">
+                                    <img src="./assets/hero-4.jpg" alt="">
+                                    <p>Chairs</p>
+                                </div>
+                            </div>
+                            <a href="#">See more</a>
+                        </div>
+                        <div class="hero__card">
+                            <p>Refresh your space</p>
+                            <div class="hero__images">
+                                <div class="hero__img">
+                                    <img src="./assets/hero-5.jpg" alt="">
+                                    <p>Dining</p>
+                                </div>
+                                <div class="hero__img">
+                                    <img src="./assets/hero-6.jpg" alt="">
+                                    <p>Home</p>
+                                </div>
+                                <div class="hero__img">
+                                    <img src="./assets/hero-7.jpg" alt="">
+                                    <p>Kitchen</p>
+                                </div>
+                                <div class="hero__img">
+                                    <img src="./assets/hero-8.jpg" alt="">
+                                    <p>Health and Beauty</p>
+                                </div>
+                            </div>
+                            <a href="#">See more</a>
+                        </div>
+                        <div class="hero__card">
+                            <p>Shop deals in Fashion</p>
+                            <div class="hero__images">
+                                <div class="hero__img">
+                                    <img src="./assets/hero-9.jpg" alt="">
+                                    <p>jeans under &50</p>
+                                </div>
+                                <div class="hero__img">
+                                    <img src="./assets/hero-10.jpg" alt="">
+                                    <p>Tops under $25</p>
+                                </div>
+                                <div class="hero__img">
+                                    <img src="./assets/hero-11.jpg" alt="">
+                                    <p>Dresses under $30</p>
+                                </div>
+                                <div class="hero__img">
+                                    <img src="./assets/hero-12.jpg" alt="">
+                                    <p>Shoes under $50</p>
+                                </div>
+                            </div>
+                            <a href="#">See more</a>
+                        </div>
+                        <div class="hero__card">
+                            <p>Deals in PCs</p>
+                            <div class="hero__images" style="grid-template-columns: 1fr;">
+                                <div class="hero__img">
+                                    <img src="./assets/hero-13.jpg" alt="">
+                                </div>
+                            </div>
+                            <a href="#">See more</a>
+                        </div>
+                        <div class="hero__card">
+                            <p>Toys under $25</p>
+                            <div class="hero__images" style="grid-template-columns: 1fr;">
+                                <div class="hero__img">
+                                    <img src="./assets/hero-14.jpg" alt="">
+                                </div>
+                            </div>
+                            <a href="#">See more</a>
+                        </div>
+                        <div class="hero__card">
+                            <p>Fashion trends you like</p>
+                            <div class="hero__images">
+                                <div class="hero__img">
+                                    <img src="./assets/hero-15.jpg" alt="">
+                                    <p>Dresses</p>
+                                </div>
+                                <div class="hero__img">
+                                    <img src="./assets/hero-16.jpg" alt="">
+                                    <p>Knits</p>
+                                </div>
+                                <div class="hero__img">
+                                    <img src="./assets/hero-17.jpg" alt="">
+                                    <p>Jackets</p>
+                                </div>
+                                <div class="hero__img">
+                                    <img src="./assets/hero-18.jpg" alt="">
+                                    <p>Jewelry</p>
+                                </div>
+                            </div>
+                            <a href="#">See more</a>
+                        </div>
+                        <div class="hero__card">
+                            <p>Beauty steals under $25</p>
+                            <div class="hero__images" style="grid-template-columns: 1fr;">
+                                <div class="hero__img">
+                                    <img src="./assets/hero-19.jpg" alt="">
+                                </div>
+                            </div>
+                            <a href="#">See more</a>
+                        </div>
+                        <div class="hero__card">
+                            <p>Home décor under $50</p>
+                            <div class="hero__images" style="grid-template-columns: 1fr;">
+                                <div class="hero__img">
+                                    <img src="./assets/hero-20.jpg" alt="">
+                                </div>
+                            </div>
+                            <a href="#">See more</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__wrapper">
+              <div class="footer__logo">
+                <img src="./assets/logo.svg" alt="">
+              </div>
+              <div class="footer__links">
+                <a href="#">Home</a>
+                <a href="#">About</a>
+                <a href="#">Services</a>
+                <a href="#">Contact</a>
+              </div>
+              <div class="footer__social">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+              </div>
+            </div>
+            <div class="footer__bottom">
+              <p>&copy; 2024 Your Company. All Rights Reserved.</p>
+            </div>
+        </div>
+      </footer>
+
+    <script src="./js/main.js"></script>
+</body>
+</html>
